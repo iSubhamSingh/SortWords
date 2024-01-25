@@ -1,6 +1,9 @@
 function sort(){
 let string = document.getElementById("string").value;
 
+if(string == null)
+    return;
+    
 let words = string.split(' ');
 
 words.sort();

@@ -1,8 +1,10 @@
 function sort(){
 let string = document.getElementById("string").value;
 
-if(string == null)
+if(string == null || !isNaN(string)){
+    alert("Please enter a valid string");
     return;
+}
     
 let words = string.split(' ');
 

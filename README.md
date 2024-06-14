@@ -1,1 +1,1 @@
-A static web page which sorts the entered string.
+A static web page which sorts the words of the entered string lexicographically.
